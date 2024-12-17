@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Negozio di Scarpe</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1rem 0;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            background-color: #555;
+            margin: 0;
+        }
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .container {
+            padding: 20px;
+            text-align: center;
+        }
+        .prodotto {
+            display: inline-block;
+            margin: 20px;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+        }
+        .prodotto img {
+            width: 100%;
+            max-width: 300px;
+            height: auto;
+        }
+        .prodotto h3 {
+            margin: 10px 0;
+            font-size: 1.2rem;
+        }
+        .prodotto p {
+            font-size: 1rem;
+            color: #333;
+        }
+        .prodotto button {
+            background-color: #28a745;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+            font-size: 1rem;
+            margin-bottom: 10px;
+            border-radius: 4px;
+        }
+        .prodotto button:hover {
+            background-color: #218838;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1rem 0;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Benvenuto nel nostro Negozio di Scarpe!</h1>
+        <p>Scopri le nostre migliori offerte</p>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Prodotti</a></li>
+            <li><a href="#">Offerte</a></li>
+            <li><a href="#">Contatti</a></li>
+        </ul>
+    </nav>
+    <div class="container">
+        <div class="prodotto">
+            <img src="https://via.placeholder.com/300" alt="Scarpa Uomo">
+            <h3>Scarpa Elegante Uomo</h3>
+            <p>Prezzo: &euro;79.99</p>
+            <button>Aggiungi al Carrello</button>
+        </div>
+        <div class="prodotto">
+            <img src="https://via.placeholder.com/300" alt="Scarpa Donna">
+            <h3>Scarpa Sportiva Donna</h3>
+            <p>Prezzo: &euro;59.99</p>
+            <button>Aggiungi al Carrello</button>
+        </div>
+        <div class="prodotto">
+            <img src="https://via.placeholder.com/300" alt="Scarpa Bambini">
+            <h3>Scarpa Casual Bambini</h3>
+            <p>Prezzo: &euro;39.99</p>
+            <button>Aggiungi al Carrello</button>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2024 Negozio di Scarpe. Tutti i diritti riservati.</p>
+    </footer>
+</body>
+</html>
